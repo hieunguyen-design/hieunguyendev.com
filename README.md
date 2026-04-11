@@ -6,8 +6,6 @@ A personal portfolio website showcasing professional experience, skills, and pro
 
 - **About Me**: Introduction and overview of services offered (Web Design, Web Development, Mobile Apps, Photography).
 - **Resume**: Detailed timeline of education, professional experience, and technical skills.
-- **Portfolio**: A categorized gallery of projects including Web Design, Applications, and Web Development.
-- **Blog**: A section for articles and insights on design and development.
 - **Contact**: A simple contact form for inquiries and networking.
 
 ## Structure
@@ -17,9 +15,7 @@ The portfolio is divided into the following main sections:
 1. **Sidebar/Profile**: Displays the user's name, title, and quick contact details (Email, Phone, Birthday, Location).
 2. **About**: Contains a brief biography, services, client testimonials, and client logos.
 3. **Resume**: Lists educational background, past roles (Creative Director, Art Director, Web Designer), and a skill progress showcase.
-4. **Portfolio**: Highlights specific projects (e.g., Finance, Orizon, Brawlhalla, MetaSpark) with category filters.
-5. **Blog**: Features recent posts (e.g., "Design conferences in 2022", "Best fonts every designer").
-6. **Contact**: A built-in form to send direct messages.
+4. **Contact**: A built-in form to send direct messages.
 
 ## Setup & Usage
 

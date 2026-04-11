@@ -952,10 +952,20 @@ main {
   height: 100%;
   border-radius: inherit;
 }
+.resume-content .article-title {
+  margin-bottom: 30px;
+  scale: 50%;
+}
 
 /*-----------------------------------*\
   #PORTFOLIO
 \*-----------------------------------*/
+
+.portfolio,
+.testimonials,
+.clients {
+  visibility: hidden;
+}
 
 .filter-list {
   display: none;
