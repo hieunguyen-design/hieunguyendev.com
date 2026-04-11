@@ -356,7 +356,7 @@ main {
 }
 
 .sidebar.active {
-  max-height: 405px;
+  max-height: 800px;
 }
 
 .sidebar-info {
@@ -370,10 +370,12 @@ main {
 .avatar-box {
   background: var(--bg-gradient-onyx);
   border-radius: 20px;
+  flex-shrink: 0;
 }
 .avatar-box img {
-  width: 100%;
-  height: 100%;
+  width: 65px;
+  height: auto;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
   border-radius: 20px;
 }
@@ -952,6 +954,15 @@ main {
   height: 100%;
   border-radius: inherit;
 }
+
+.resume-iframe {
+  width: 100%;
+  height: 70vh;
+  min-height: 400px;
+  border: none;
+  border-radius: 14px;
+}
+
 .resume-content .article-title {
   margin-bottom: 30px;
   scale: 50%;
@@ -1759,6 +1770,13 @@ textarea.form-input::-webkit-resizer {
 
   .modal-avatar-box img {
     width: 80px;
+  }
+
+  /**
+   * RESUME
+   */
+  .resume-iframe {
+    height: 800px;
   }
 
   /**
