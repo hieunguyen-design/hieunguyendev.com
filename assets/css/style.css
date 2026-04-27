@@ -845,6 +845,31 @@ main {
   margin-bottom: 30px;
 }
 
+/* .resume-title-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 30px;
+} */
+
+.resume-title-wrapper .article-title {
+  margin-bottom: 0;
+}
+
+.resume-pdf a {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.download-btn {
+  width: max-content;
+  margin-top: 20px;
+}
+
 /**
  * education and experience 
  */
