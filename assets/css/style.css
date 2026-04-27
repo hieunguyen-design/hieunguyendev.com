@@ -858,13 +858,6 @@ main {
   margin-bottom: 0;
 }
 
-.resume-pdf a {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  gap: 15px;
-}
 .download-btn {
   width: max-content;
   margin-top: 20px;
